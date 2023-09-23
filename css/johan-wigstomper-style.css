@@ -1,0 +1,426 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    color:#fff;
+    background-color: #9a8e71;
+    background-image: url(../media/johan-w-background_.EFE1D1.png);
+    background-repeat: no-repeat;
+    background-position: -30px -46px; 
+    background-size: 40%;
+}
+body {
+    margin: 0px;
+}
+h1, h2 {
+    color:#390027;
+}
+h1 {
+    margin-top: 0px;
+}
+h2 {
+    margin-bottom:0px;
+}
+img {
+    border: 3px solid #390027;
+}
+.no-border {
+    border: none;
+}
+header {
+    margin: 0px;
+}
+main {
+    margin: 0px;
+}
+footer {
+    font-size: .7rem;
+    color:#A78295;
+    background-color: #000000;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+}
+p, ul {
+    margin-top:0px;
+}
+p.last {
+    margin-bottom: 0px;
+}
+.container {
+    margin: 0px 0% 0px 216px;
+    padding-top: 25px;
+    background-color: #a49979;
+    border-left: 2px solid #ff9102;
+    background-image: url(../media/project-1-background.png);
+    background-repeat: no-repeat;
+    background-position: -305px -105px;
+}
+.content {
+    margin: 0px 0px 0px 45px;
+    padding-bottom: 24px;
+    width: 1175px;
+}
+.caption {
+    font-family: 'Slackey', cursive;
+    width: 325px;
+    color: #FFF;
+    font-size: .65rem;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 9s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+.button {
+    position: absolute;
+    left: 526px;
+    top: 340px;
+    z-index: 1;
+    background-color: #a13f72;
+    color:#FFF;
+    opacity: 0;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #331D2C;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.3);
+    transition: all .3s;
+    animation-name: johanbutton; 
+    animation-duration: 3.5s;
+    animation-delay: 125ms;
+    animation-fill-mode: forwards;
+}
+.button:hover {
+    background-color: #6a2449;
+    color: #dbabc4;
+}
+.button:active {
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.6);
+    transform: translateY(4px);
+}
+.button-hide {
+    animation-name: button-hide;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+.color-aqua {
+    color: aqua;
+}
+.hidden {
+    opacity: 0;
+}
+.slackey {
+    font-family: 'Slackey', cursive;
+}
+.zenloop {
+    font-family: 'Zen Loop', cursive;
+}
+.beige-text {
+    color: #a49979;
+}
+.h1-chachki-1{
+    background-image: url(arrows1_140x140.png);
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    background-position: -20px ;
+}
+#johan1 {
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    opacity: 0;
+    animation-duration: 3.5s;
+}
+#johan2 {
+    position: absolute;/*He is what you might call*/
+    left: 570px;
+    top: 280px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 3s;
+    animation-duration: 4.5s;
+}
+#johan3 {
+    position: absolute;/*my alter ego*/
+    left: 760px;
+    top: 310px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 5s;
+    animation-duration: 3.5s; 
+}
+#johan4 {
+    position: absolute;/* but really*/
+    left: 570px;
+    top: 150px;
+    opacity: 0;
+    /*animation-name: fade-in-less; */
+    animation-delay: 9s;
+    animation-duration: 6.1s;
+}
+#johan5 {/*he just crashed*/
+    position: absolute;
+    left: 530px;
+    top: 180px;
+    opacity: 0;
+    /*animation-name: fade-in-less; */
+    animation-delay: 10.2s;
+    animation-duration: 5s; 
+}
+#johan6 {
+    position: absolute;/*about 23 years ago*/
+    left: 823px;
+    top: 210px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 12s;
+    animation-duration: 3.5s; 
+}
+#johan7 {
+    position: absolute;
+    left: 620px;
+    top: 200px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 16s;
+    animation-duration: 3.5s; 
+}
+#johan8 {
+    position: absolute;
+    left: 683px;
+    top: 372px;
+    opacity: 0;
+    z-index: 3;
+    /*animation-name: fade-in-out; */
+    animation-delay: 18s;
+    animation-duration: 3.5s; 
+}
+#johan9 {
+    position: absolute;
+    left: 730px;
+    top: 270px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 20s;
+    animation-duration: 3.5s;
+}
+#screened-bugs {
+    opacity: 0;
+    position: absolute;
+    left: 515px;
+    top: 160px;
+    opacity: 0;
+    /*animation-name: fade-in; */
+    animation-delay: 16s;
+    animation-duration: 3.5s; 
+    animation-fill-mode: forwards;
+}
+#screened-felix {
+    position: absolute;
+    left: 640px; /*left: 580px; */
+    top: 305px;
+    opacity: 0;
+    z-index: 3;
+    /*animation-name: fade-in; */
+    animation-delay: 18s;
+    animation-duration: 3.5s; 
+    animation-fill-mode: forwards;
+}
+#patch {
+    position: absolute;
+    left: 685px;/*525 */
+    top: 339px;
+    z-index: 2;
+    height: 60px;
+    width: 160px;
+    background-color: #a49979;
+}
+#screened-nerd {
+    position: absolute;
+    left: 707px;
+    top: 290px;
+    opacity: 0;    
+    /*animation-name: fade-in; */
+    animation-delay: 20s;
+    animation-duration: 3.5s; 
+    animation-fill-mode: forwards;
+}
+#johan10 {
+    position: absolute;
+    left: 610px;
+    top: 205px;
+    opacity: 0;
+    /*animation-name: fade-in-out; */
+    animation-delay: 24.5s;
+    animation-duration: 9.1s; 
+}
+#johan11 {
+    position: absolute;
+    left: 665px;
+    top: 235px;
+    opacity: 0;
+  /*animation-name: fade-in-out; */
+    animation-delay: 27.5s;
+    animation-duration: 5.5s; 
+}
+#arrows1 {
+    position: absolute;
+    left: -32px;
+    top: -155px;
+    z-index: -1;
+    transform: scale(65%);
+    /*animation: jiggle 1s; 
+    animation-iteration-count: infinite;*/
+    
+}
+#arrows2 {
+    position: absolute;
+    left: 0px;
+    top: -78px;
+    z-index: -1;
+    transform: scale(65%);
+    rotate: 190deg;
+    /*animation: jiggle 3s;*/
+
+}
+#arrows3 {
+    position: absolute;
+    left: 120px;
+    top: 280px;
+    z-index: -1;
+    opacity: .6;
+    /*animation: jiggle 3s;*/
+}
+#arrows7 {
+    position: absolute;
+    left: 30px;
+    top: -90px;
+    z-index: -1;
+    rotate: 190deg;
+    /*animation: jiggle 3s;*/
+}#arrows4 {
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    rotate: 90deg;
+    z-index: -1;
+    /*animation: jiggle 3s;*/
+}
+#arrows5 {
+    position: absolute;
+    left: 165px;
+    top: 450px;
+    z-index: -1;
+    rotate: -271deg;
+    opacity: .35;
+    /*animation: jiggle 3s;*/
+}
+#arrows6 {
+    position: absolute;
+    left: 130px;
+    top: -30px;
+    z-index: -1;
+    /*animation: jiggle 3s;*/
+}
+#arrows8 {
+    position: absolute;
+    left: 145px;
+    top: 185px;
+    rotate: -50deg;
+    z-index: -1;
+    /*animation: jiggle 3s;*/
+}
+
+.fade-in-out-4s {
+    animation-name: fade-in-out-4s;
+}
+.fade-in {
+    animation-name: fade-in;
+}
+.move-fade-in {
+    animation-name: move-fade-in;
+}
+@keyframes fade-in-out-4s {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity:0}
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade-in-nerd {
+    0% {opacity: 0;}
+    100% {opacity: 28;}
+}
+@keyframes jiggle {
+    0% {translate: 100px 0px; }
+    10% {translate: 113px 5px; }
+    20% {translate: 111px -6px;}
+    30% {translate: 99px -8px;}
+    40% {translate: 101px 2px;}
+    50% {translate: 108px -2px;}
+    60% {translate: 101px -1x;}
+    70% {translate: 98px 0px;}
+    80% {translate: 101px 2px;}
+    90% {translate: 102px -8px;}
+    100% {translate: 116px 0px;}
+}
+@keyframes jiggle1 {
+    0% {translate: 0px 0px; }
+    10% {translate: -28px 27px;}
+    20% {translate: 17px -23px;}
+    30% {translate: -7px -11px; }
+    40% {translate: -19px 10px; }
+    50% {translate: 12px 28px; }
+}
+@keyframes jiggle2 {
+    0% {translate: 0px 0px; rotate: 0;}
+    3% {translate: -7px -11px; rotate: -16;}
+    5% {translate: 17px 3px; rotate: -5;}
+    8% {translate: -7px -11px; rotate: -16;}
+    10% {translate: -19px 10px; rotate:6;}
+    12% {translate: 12px 28px; rotate: 14;}
+}
+@keyframes jiggle3 {
+    0% {translate: 0px 0px; rotate: 0;}
+    3% {translate: -7px -11px; rotate: -16;}
+    5% {translate: 17px 3px; rotate: -5;}
+    8% {translate: -7px -11px; rotate: -16;}
+    10% {translate: -19px 10px; rotate:6;}
+    12% {translate: 12px 28px; rotate: 14;}
+}
+
+@keyframes move-fade-in {
+    0% {opacity: 0; left: 640px;}
+    10% {opacity: 0; left: 580px;}
+    100% {opacity: 1; left: 580px;}
+}
+@keyframes johanbutton {
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+@keyframes button-hide {
+    0% {left: 685px; opacity :0;}
+    10% {left: 525px; opacity:0;}
+    25% {left: 525px; opacity: 0;}
+    75% {left: 525px; opacity: 1;}
+    100% {left: 525px; opacity: 1;}
+}
+@keyframes fade-in-less {
+    0% {opacity: 0;}
+    14% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity:0}
+}
+@keyframes group-fade-out {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
